@@ -26,6 +26,8 @@ keys.addEventListener('click', e => {
             console.log('clear key!');
         } if (action === 'delete') {
             console.log('delete key!');
+        } if (action === 'calculate') {
+            console.log('equals key!');
         }
     }
 });
