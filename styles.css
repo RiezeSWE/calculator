@@ -4,7 +4,7 @@
 
 .mainContainer {
     margin: auto;
-    width: 50%;
+    width: 40em;
     border: 3px solid green;
     padding: 10px;
     text-align: center;
@@ -31,11 +31,17 @@
     color:#fff
 }
 
+.buttonContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 button {
     height:3em;
     width: 6em;
 }
 
 #clear, #delete {
-    width:12.3em
+    width:12em
 }
